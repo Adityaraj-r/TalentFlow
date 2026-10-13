@@ -25,7 +25,7 @@ const EmployeeDashboard = ({ stats = {}, isLoading = false }) => {
     return "Good Evening";
   };
 
-  // Mock data for graphs & lists (simulating real HRMS data as requested)
+  // Mock data for graphs & lists (simulating real TalentFlow data as requested)
   const attendanceData = [
     { name: 'Apr', present: 20 },
     { name: 'May', present: 22 },

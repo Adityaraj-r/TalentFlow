@@ -8,7 +8,7 @@ export const getCompanyInfo = async (req: Request, res: Response) => {
     if (!settings) {
       return res.status(200).json({
         success: true,
-        companyName: 'HRMS System',
+        companyName: 'TalentFlow',
       });
     }
 

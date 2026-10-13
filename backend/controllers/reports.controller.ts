@@ -669,7 +669,7 @@ export const getExportData = async (req: Request, res: Response) => {
 
       doc.pipe(res);
 
-      doc.fontSize(20).text("HRMS Reports Export", {
+      doc.fontSize(20).text("TalentFlow Reports Export", {
         align: "center",
       });
 

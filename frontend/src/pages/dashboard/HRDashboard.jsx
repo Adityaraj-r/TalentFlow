@@ -27,7 +27,7 @@ const HRDashboard = ({ stats = {}, isLoading = false }) => {
     return "Good Evening";
   };
 
-  // Mock data for graphs & lists (simulating HRMS data)
+  // Mock data for graphs & lists (simulating TalentFlow data)
   const recruitmentData = [
     { name: 'Applied', value: 42, color: '#64748b' },
     { name: 'Screening', value: 28, color: '#0ea5e9' },

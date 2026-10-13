@@ -177,7 +177,7 @@ export default function ReportsPage() {
 
       a.href = url;
       a.download =
-        "HRMS_Report.csv";
+        "TalentFlow_Report.csv";
       a.click();
     };
 
@@ -204,7 +204,7 @@ export default function ReportsPage() {
       doc.setFontSize(16);
 
       doc.text(
-        "HRMS Report",
+        "TalentFlow Report",
         14,
         15
       );
@@ -225,7 +225,7 @@ export default function ReportsPage() {
       });
 
       doc.save(
-        "HRMS_Report.pdf"
+        "TalentFlow_Report.pdf"
       );
     };
 

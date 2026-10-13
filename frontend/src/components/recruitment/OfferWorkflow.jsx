@@ -1195,7 +1195,7 @@ export function OfferLetterPreview({ offer, open, onClose, onDownload }) {
               <div className="rounded-lg border border-slate-200 dark:border-white/10 bg-card p-6 shadow-sm">
                 <div className="flex items-center justify-between border-b border-slate-200 dark:border-white/10 pb-5">
                   <div>
-                    <p className="text-xl font-semibold">HRMS System</p>
+                    <p className="text-xl font-semibold">TalentFlow</p>
                     <p className="text-sm text-muted-foreground">Official Employment Offer</p>
                   </div>
                   <FileSignature className="h-10 w-10 text-primary" />

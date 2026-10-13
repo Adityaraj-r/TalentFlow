@@ -9,12 +9,12 @@ export const exportPDF = async () => {
 
   const pdf = new jsPDF("landscape");
   pdf.addImage(imgData, "PNG", 0, 0, 290, 150);
-  pdf.save("HRMS-Report.pdf");
+  pdf.save("TalentFlow-Report.pdf");
 };
 
 export const exportExcel = (data) => {
   const worksheet = XLSX.utils.json_to_sheet(data);
   const workbook = XLSX.utils.book_new();
   XLSX.utils.book_append_sheet(workbook, worksheet, "Report");
-  XLSX.writeFile(workbook, "HRMS-Report.xlsx");
+  XLSX.writeFile(workbook, "TalentFlow-Report.xlsx");
 };

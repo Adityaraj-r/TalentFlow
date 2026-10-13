@@ -868,7 +868,7 @@ const Sidebar = ({
               "text-lg font-bold truncate transition-all duration-300",
               isCollapsed ? "w-0 opacity-0" : "w-auto opacity-100"
             )}>
-              {companyName || "HRMS"}
+              {companyName || "TalentFlow"}
             </span>
           </div>
         </div>

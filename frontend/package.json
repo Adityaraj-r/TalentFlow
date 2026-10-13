@@ -1,5 +1,6 @@
 {
-  "name": "hrms",
+  "name": "talentflow",
+  "description": "TalentFlow — Intelligent HR & Recruitment Management",
   "private": true,
   "version": "0.0.0",
   "type": "module",

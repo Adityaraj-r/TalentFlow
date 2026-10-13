@@ -1,12 +1,42 @@
-# React + Vite
+# TalentFlow
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**TalentFlow — Intelligent HR & Recruitment Management**
 
-Currently, two official plugins are available:
+*Smarter Hiring. Better Workflows.*
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+TalentFlow brings recruitment and core HR workflows into one application, including candidate tracking, interview scheduling, onboarding, employee records, leave, performance, and payroll modules.
 
-## Expanding the ESLint configuration
+## Project layout
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- `frontend/` — React and Vite web application
+- `backend/` — Express and TypeScript API
+
+## Development setup
+
+1. Install Node.js and MongoDB, then install the frontend and backend dependencies:
+
+   ```sh
+   cd frontend && npm install
+   cd ../backend && npm install
+   ```
+
+2. Copy `backend/.env.example` to `backend/.env` and set the database connection and any integrations you use. Keep `.env` files and credentials out of source control. See [backend/CONFIGURATION.md](backend/CONFIGURATION.md) for configuration details.
+
+3. Start the API and web app in separate terminals:
+
+   ```sh
+   cd backend && npm run dev
+   ```
+
+   ```sh
+   cd frontend && npm run dev
+   ```
+
+The frontend development server uses Vite's default local address. The backend defaults to port `5001`.
+
+## Validation commands
+
+```sh
+cd frontend && npm run lint && npm run build
+cd backend && npm test && npm run build
+```

@@ -628,7 +628,7 @@ export const resendInvitation = async (req: AuthRequest, res: Response) => {
     let emailResult: any = null;
     try {
       emailResult = await sendReferralEmail(referral.candidateEmail, {
-        companyName: "HRMS Portal",
+        companyName: "TalentFlow",
         candidateName: referral.candidateName,
         referrerName,
         jobTitle: referral.jobId?.jobTitle || "Position",

@@ -290,7 +290,7 @@ const InterviewScheduling = () => {
     }
     const toCalendarDate = (isoValue) => format(new Date(isoValue), "yyyyMMdd'T'HHmmss'Z'")
     const title = encodeURIComponent(`Interview: ${selected?.name || "Candidate"}`)
-    const details = encodeURIComponent("Please enable Google Meet while scheduling and share the generated link in HRMS.")
+    const details = encodeURIComponent("Please enable Google Meet while scheduling and share the generated link in TalentFlow.")
     const dates = `${toCalendarDate(startDateTime)}/${toCalendarDate(endDateTime)}`
     const attendee = selected?.email ? `&add=${encodeURIComponent(selected.email)}` : ""
     const calendarUrl = `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${title}&dates=${dates}&details=${details}${attendee}`

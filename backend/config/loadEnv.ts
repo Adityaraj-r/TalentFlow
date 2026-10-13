@@ -5,7 +5,7 @@ import path from 'path';
 const isBackendPackage = (directory: string): boolean => {
   try {
     const packageJson = JSON.parse(fs.readFileSync(path.join(directory, 'package.json'), 'utf8'));
-    return packageJson.name === 'hrms-backend';
+    return packageJson.name === 'talentflow-backend';
   } catch {
     return false;
   }
@@ -20,7 +20,7 @@ const candidates = [
 const backendRoot = candidates.find(isBackendPackage);
 
 if (!backendRoot) {
-  throw new Error('Could not locate the HRMS backend package to load its local environment file.');
+  throw new Error('Could not locate the TalentFlow backend package to load its local environment file.');
 }
 
 // A platform-provided environment takes precedence; dotenv does not override existing values.

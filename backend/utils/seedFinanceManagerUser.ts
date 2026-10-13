@@ -2,7 +2,7 @@ import bcrypt from 'bcryptjs';
 import User from '../models/User.model';
 
 /**
- * Ensures a Finance Manager account exists (same pattern as other seeded HRMS users).
+ * Ensures a Finance Manager account exists (same pattern as other seeded TalentFlow users).
  * Defaults: finance@hrms.com — override with FINANCE_MANAGER_SEED_EMAIL / FINANCE_MANAGER_SEED_PASSWORD in any environment.
  */
 export const seedFinanceManagerUser = async (): Promise<void> => {

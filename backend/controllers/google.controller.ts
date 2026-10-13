@@ -42,7 +42,7 @@ export const googleCallback = async (req: Request, res: Response) => {
         <body style="font-family: sans-serif; text-align: center; padding-top: 50px; background-color: #f9fafb;">
           <div style="max-width: 400px; margin: 0 auto; padding: 20px; background: white; border-radius: 12px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);">
             <h1 style="color: #059669; font-size: 24px;">Connection Successful</h1>
-            <p style="color: #4b5563;">Google Workspace has been linked to your HRMS. You can safely close this window.</p>
+            <p style="color: #4b5563;">Google Workspace has been linked to TalentFlow. You can safely close this window.</p>
           </div>
           <script>
             if (window.opener) {

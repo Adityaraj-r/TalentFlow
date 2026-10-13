@@ -22,7 +22,7 @@ const DashboardLayout = ({ children }) => {
           localStorage.setItem("companyName", data.companyName)
         }
       } catch (error) {
-        if (!companyName) setCompanyName("HRMS System")
+        if (!companyName) setCompanyName("TalentFlow")
       }
     }
     fetchSettings()

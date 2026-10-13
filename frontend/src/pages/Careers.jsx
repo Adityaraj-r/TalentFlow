@@ -16,7 +16,7 @@ const Careers = () => {
   const [employmentTypeFilter, setEmploymentTypeFilter] = useState("All")
   const [locationFilter, setLocationFilter] = useState("All")
 
-  const [companyInfo, setCompanyInfo] = useState({ name: "Company HRMS", email: "careers@company.com", phone: "+1 (800) 123-4567" })
+  const [companyInfo, setCompanyInfo] = useState({ name: "TalentFlow", email: "careers@company.com", phone: "+1 (800) 123-4567" })
 
   const navigate = useNavigate()
 
@@ -49,7 +49,7 @@ const Careers = () => {
       })
       if (data.success) {
         setCompanyInfo({
-          name: data.companyName || "Company HRMS",
+          name: data.companyName || "TalentFlow",
           email: data.companyEmail || "careers@company.com",
           phone: data.phone || "+1 (800) 123-4567"
         })
@@ -126,7 +126,7 @@ const Careers = () => {
       <nav className="bg-white dark:bg-slate-900 border-b border-slate-100 dark:border-slate-800 sticky top-0 z-40">
         <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
           <div className="flex items-center gap-3 cursor-pointer" onClick={() => navigate('/careers')}>
-            <img src="/hrms-logo.svg" alt="Company Logo" className="w-10 h-10 object-contain" />
+            <img src="/talentflow-logo.svg" alt="TalentFlow logo" className="w-10 h-10 object-contain" />
             <span className="text-[20px] font-bold tracking-tight text-slate-900 dark:text-white">{companyInfo.name} Careers</span>
           </div>
           <button

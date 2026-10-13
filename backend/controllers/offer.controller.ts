@@ -234,7 +234,7 @@ export const syncOfferJoinedStatus = async (targetEmail?: string) => {
             newEvents.push({
               type: 'candidate-joined',
               message: `Employee Joined Organization as ${employee.designation || offer.position || 'Employee'} (${employee.employeeCode || 'EMP'}). Offer lifecycle complete.`,
-              actor: 'HRMS System',
+              actor: 'TalentFlow',
               priority: 'normal',
               at: new Date(),
             });

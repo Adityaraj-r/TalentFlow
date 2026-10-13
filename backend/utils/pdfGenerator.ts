@@ -19,7 +19,7 @@ export const generateOfferLetterPdfBuffer = (offer: any, hrUser: any): Promise<B
       doc.on('error', (err) => reject(err));
 
       // 1. Header
-      doc.fontSize(22).font('Helvetica-Bold').fillColor('#0f766e').text('HRMS System', { align: 'left' });
+      doc.fontSize(22).font('Helvetica-Bold').fillColor('#0f766e').text('TalentFlow', { align: 'left' });
       doc.fontSize(10).font('Helvetica').fillColor('#64748B').text('Official Employment Offer', { align: 'left' });
       doc.moveDown();
       

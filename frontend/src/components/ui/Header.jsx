@@ -141,7 +141,7 @@ const Header = ({ toggleSidebar }) => {
             <ArrowLeft className="h-5 w-5" />
           </Button>
         )}
-        <h1 className="text-lg font-bold text-foreground">HRMS System</h1>
+        <h1 className="text-lg font-bold text-foreground">TalentFlow</h1>
       </div>
 
       {canUseSearch && (

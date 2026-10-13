@@ -26,7 +26,7 @@ export const SettingsProvider = ({ children }) => {
     
     // Default settings
     return {
-      companyName: 'HRMS',
+      companyName: 'TalentFlow',
       companyEmail: '',
       timezone: 'UTC',
       dateFormat: 'DD/MM/YYYY',

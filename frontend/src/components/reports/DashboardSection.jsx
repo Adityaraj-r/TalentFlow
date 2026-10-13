@@ -54,7 +54,7 @@ export default function DashboardSection({
       doc.setFontSize(22);
       doc.setTextColor(30, 41, 59);
       doc.setFont("helvetica", "bold");
-      doc.text("HRMS Performance Report", pageWidth / 2, 25, { align: "center" });
+      doc.text("TalentFlow Performance Report", pageWidth / 2, 25, { align: "center" });
 
       // 2. Compact Report Info Section
       doc.setDrawColor(200, 200, 200);
@@ -189,7 +189,7 @@ export default function DashboardSection({
         doc.text(generatedDate, 14, pageHeight - 14);
         
         // Center
-        doc.text("HRMS Performance Report", pageWidth / 2, pageHeight - 14, { align: "center" });
+        doc.text("TalentFlow Performance Report", pageWidth / 2, pageHeight - 14, { align: "center" });
 
         // Right
         doc.text(
@@ -200,7 +200,7 @@ export default function DashboardSection({
         );
       }
 
-      doc.save(`HRMS_Report_${new Date().toISOString().split("T")[0]}.pdf`);
+      doc.save(`TalentFlow_Report_${new Date().toISOString().split("T")[0]}.pdf`);
     } catch (err) {
       console.error("Export PDF failed:", err);
       alert("Failed to export PDF. Please try again.");

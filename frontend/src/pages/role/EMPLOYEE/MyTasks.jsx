@@ -495,7 +495,7 @@ const MyTasks = () => {
                                 : task.title}
                             </span>
                             <span className="text-xs font-medium text-slate-400 dark:text-slate-500">
-                              {intData ? "Recruitment" : (task.project || "V-ONE - HRMS")}
+                              {intData ? "Recruitment" : (task.project || "V-ONE - TalentFlow")}
                             </span>
                           </div>
                         </td>

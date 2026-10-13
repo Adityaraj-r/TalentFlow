@@ -161,8 +161,9 @@ const Login = () => {
                 </div>
               </div>
               <div>
-                <h1 className="text-2xl font-bold text-white tracking-tight drop-shadow-lg">{companyName}</h1>
-                <p className="text-blue-50 dark:text-blue-300 text-sm font-medium">Enterprise HRMS Platform</p>
+                <h1 className="text-2xl font-bold text-white tracking-tight drop-shadow-lg">TalentFlow</h1>
+                <p className="text-blue-50 dark:text-blue-300 text-sm font-medium">TalentFlow — Intelligent HR &amp; Recruitment Management</p>
+                <p className="text-blue-100/80 text-xs mt-1">Smarter Hiring. Better Workflows.</p>
               </div>
             </div>
 
@@ -237,9 +238,9 @@ const Login = () => {
                 </div>
                 <div>
                   <h1 className="text-2xl font-bold bg-linear-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent text-2xl tracking-tight">
-                    {companyName}
+                    TalentFlow
                   </h1>
-                  <p className="text-xs text-gray-600 dark:text-gray-400">Enterprise HRMS</p>
+                  <p className="text-xs text-gray-600 dark:text-gray-400">Smarter Hiring. Better Workflows.</p>
                 </div>
               </div>
 
